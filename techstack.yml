@@ -1,0 +1,463 @@
+repo_name: aryaniyaps/examples
+report_id: 345e2d81f9a49cb6c12fd8966171987a
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-20T08:14:06+00:00'
+requested_by: aryaniyaps
+provider: github
+branch: main
+detected_tools_count: 29
+tools:
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/aryaniyaps/examples
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/aryaniyaps/examples
+  detection_source: Repo Metadata
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.68.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/fastapi-sqlalchemy/poetry.lock
+  detection_source: fastapi-sqlalchemy/pyproject.toml
+  last_updated_by: Jonathan Kim
+  last_updated_on: 2021-09-09 16:28:34.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/docker-compose.yml
+  detection_source: reddit-clone/docker-compose.yml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-19 15:49:00.000000000 Z
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/docker-compose.yml
+  detection_source: reddit-clone/docker-compose.yml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-19 15:49:00.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 3.5.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/poetry.lock
+  detection_source: reddit-clone/docker-compose.yml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-19 15:49:00.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/aryaniyaps/examples
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aryaniyaps/examples
+  detection_source: Repo Metadata
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/docker-compose.yml
+  detection_source: reddit-clone/docker-compose.yml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-15 02:04:00.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/pyproject.toml
+  detection_source: reddit-clone/pyproject.toml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-09-21 05:37:16.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/docker-compose.yml
+  detection_source: reddit-clone/docker-compose.yml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-16 14:21:09.000000000 Z
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: 3.1.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/django-subscriptions-rxdb/pyproject.toml
+  detection_source: django-subscriptions-rxdb/pyproject.toml
+  last_updated_by: Anton Melser
+  last_updated_on: 2021-03-03 03:59:02.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection in Django
+    cve_id: CVE-2021-35042
+    cve_url: https://github.com/advisories/GHSA-xpfp-f569-q3p2
+    detected_date: Sep 23
+    severity: critical
+    first_patched: 3.1.13
+  - name: Potential bypass of an upstream access control based on URL paths in Django
+    cve_id: CVE-2021-44420
+    cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
+    detected_date: Dec 14
+    severity: high
+    first_patched: 3.1.14
+  - name: Path Traversal in Django
+    cve_id: CVE-2021-31542
+    cve_url: https://github.com/advisories/GHSA-rxjp-mfm9-w4wr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.1.9
+  - name: Directory Traversal in Django
+    cve_id: CVE-2021-28658
+    cve_url: https://github.com/advisories/GHSA-xgxc-v2qg-chmh
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.1.8
+  - name: Header injection possible in Django
+    cve_id: CVE-2021-32052
+    cve_url: https://github.com/advisories/GHSA-qm57-vhq3-3fwf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.1.10
+- name: SQLAlchemy
+  description: Database Abstraction Library
+  package_url: https://pypi.org/project/SQLAlchemy
+  version: 1.4.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19847/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/fastapi-sqlalchemy/pyproject.toml
+  detection_source: fastapi-sqlalchemy/pyproject.toml
+  last_updated_by: Jonathan Kim
+  last_updated_on: 2021-09-09 16:28:34.000000000 Z
+- name: aiofiles
+  description: File support for asyncio
+  package_url: https://pypi.org/project/aiofiles
+  version: 0.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20183/default_3d320a0aa731f16ceb0e7b6999ca7f7cd784aee2.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/poetry.lock
+  detection_source: reddit-clone/pyproject.toml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-17 03:56:10.000000000 Z
+- name: alembic
+  description: A database migration tool for SQLAlchemy
+  package_url: https://pypi.org/project/alembic
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19961/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/fastapi-sqlalchemy/poetry.lock
+  detection_source: fastapi-sqlalchemy/pyproject.toml
+  last_updated_by: Jonathan Kim
+  last_updated_on: 2021-09-09 16:28:34.000000000 Z
+- name: asyncpg
+  description: An asyncio PostgreSQL driver
+  package_url: https://pypi.org/project/asyncpg
+  version: 0.24.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20348/default_af2b356cd035e5e1c010a45df43c17b898af8c44.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/poetry.lock
+  detection_source: reddit-clone/pyproject.toml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-09-30 04:52:03.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/django-subscriptions-rxdb/pyproject.toml
+  detection_source: django-subscriptions-rxdb/pyproject.toml
+  last_updated_by: Anton Melser
+  last_updated_on: 2021-03-02 01:26:33.000000000 Z
+- name: celery
+  description: Distributed Task Queue
+  package_url: https://pypi.org/project/celery
+  version: 5.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19901/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/poetry.lock
+  detection_source: reddit-clone/pyproject.toml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-17 03:56:10.000000000 Z
+  vulnerabilities:
+  - name: OS Command Injection in celery
+    cve_id: CVE-2021-23727
+    cve_url: https://github.com/advisories/GHSA-q4xr-rc97-m4xx
+    detected_date: Jan 7
+    severity: high
+    first_patched: 5.2.2
+- name: django-cors-headers
+  description: Django-cors-headers is a Django application for handling the server
+    headers required for Cross-Origin Resource Sharing
+  package_url: https://pypi.org/project/django-cors-headers
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20425/default_fd0859a8a050b41b42cc678a2c0c5f51ce41801a.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/django-subscriptions-rxdb/pyproject.toml
+  detection_source: django-subscriptions-rxdb/pyproject.toml
+  last_updated_by: Anton Melser
+  last_updated_on: 2021-03-03 03:59:02.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  version: 3.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/django-subscriptions/poetry.lock
+  detection_source: django-subscriptions-rxdb/pyproject.toml
+  last_updated_by: Anton Melser
+  last_updated_on: 2021-03-02 01:26:33.000000000 Z
+- name: flake8-bugbear
+  description: A plugin for flake8 finding likely bugs and design problems in your
+    program
+  package_url: https://pypi.org/project/flake8-bugbear
+  version: 21.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/fastapi-sqlalchemy/poetry.lock
+  detection_source: fastapi-sqlalchemy/pyproject.toml
+  last_updated_by: Jonathan Kim
+  last_updated_on: 2021-09-09 16:28:34.000000000 Z
+- name: graphql-relay
+  description: Relay library for graphql-core-next
+  package_url: https://pypi.org/project/graphql-relay
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/poetry.lock
+  detection_source: reddit-clone/pyproject.toml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-17 03:56:10.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  version: 5.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/django-subscriptions-rxdb/pyproject.toml
+  detection_source: django-subscriptions-rxdb/pyproject.toml
+  last_updated_by: Anton Melser
+  last_updated_on: 2021-03-02 01:26:33.000000000 Z
+- name: marshmallow
+  description: A lightweight library for converting complex datatypes to and from
+    native Python datatypes
+  package_url: https://pypi.org/project/marshmallow
+  version: 3.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19893/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/poetry.lock
+  detection_source: reddit-clone/pyproject.toml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-19 15:05:39.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: '0.910'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/fastapi-sqlalchemy/poetry.lock
+  detection_source: fastapi-sqlalchemy/pyproject.toml
+  last_updated_by: Jonathan Kim
+  last_updated_on: 2021-09-09 16:28:34.000000000 Z
+- name: passlib
+  description: Comprehensive password hashing framework supporting over 30 schemes
+  package_url: https://pypi.org/project/passlib
+  version: 1.7.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19992/default_aa5b3e77340c2bb80cd8e6a59cd82909abcdcd63.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/reddit-clone/poetry.lock
+  detection_source: reddit-clone/pyproject.toml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-17 03:56:10.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.8.6
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/django-subscriptions-rxdb/pyproject.toml
+  detection_source: django-subscriptions-rxdb/pyproject.toml
+  last_updated_by: Anton Melser
+  last_updated_on: 2021-03-02 01:26:33.000000000 Z
+- name: starlette
+  description: The little ASGI library that shines
+  package_url: https://pypi.org/project/starlette
+  version: 0.14.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20295/default_640b00772a7025571fa2ac02de971e76f9662aa9.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/django-subscriptions/poetry.lock
+  detection_source: reddit-clone/pyproject.toml
+  last_updated_by: Aryan Iyappan
+  last_updated_on: 2021-10-17 03:56:10.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: Starlette vulnerable to directory traversal'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-qj8w-rv5x-2v9h
+    detected_date: Jun 6
+    severity: high
+    first_patched: 0.27.0
+  - name: Starlette allows an unauthenticated and remote attacker to specify any number
+      of form fields or files
+    cve_id: CVE-2023-30798
+    cve_url: https://github.com/advisories/GHSA-3qj8-93xh-pwh2
+    detected_date: Apr 22
+    severity: high
+    first_patched: 0.25.0
+  - name: MultipartParser denial of service with too many fields or files
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-74m5-2c7w-9w3x
+    detected_date: Feb 15
+    severity: moderate
+    first_patched: 0.25.0
+  - name: Starlette has Path Traversal vulnerability in StaticFiles
+    cve_id: CVE-2023-29159
+    cve_url: https://github.com/advisories/GHSA-v5gw-mw7f-84px
+    detected_date: May 17
+    severity: low
+    first_patched: 0.27.0
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.13.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/aryaniyaps/examples/blob/main/django-subscriptions/poetry.lock
+  detection_source: django-subscriptions-rxdb/pyproject.toml
+  last_updated_by: Anton Melser
+  last_updated_on: 2021-03-02 01:26:33.000000000 Z
