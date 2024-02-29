@@ -2,7 +2,7 @@ repo_name: aryaniyaps/examples
 report_id: 345e2d81f9a49cb6c12fd8966171987a
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-20T08:14:06+00:00'
+timestamp: '2024-02-29T19:31:12+00:00'
 requested_by: aryaniyaps
 provider: github
 branch: main
@@ -422,6 +422,18 @@ tools:
   last_updated_by: Aryan Iyappan
   last_updated_on: 2021-10-17 03:56:10.000000000 Z
   vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
   - name: 'Duplicate Advisory: Starlette vulnerable to directory traversal'
     cve_id: 
     cve_url: https://github.com/advisories/GHSA-qj8w-rv5x-2v9h
