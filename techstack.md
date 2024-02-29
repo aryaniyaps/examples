@@ -3,15 +3,15 @@
 ## Tech Stack
 aryaniyaps/examples is built on the following main stack:
 
-- [Python](https://www.python.org) – Languages
-- [PostgreSQL](http://www.postgresql.org/) – Databases
-- [Redis](http://redis.io/) – In-Memory Databases
-- [NGINX](http://nginx.org) – Web Servers
-- [RabbitMQ](http://www.rabbitmq.com/) – Message Queue
 - [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
-- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- [Python](https://www.python.org) – Languages
 - [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- [PostgreSQL](http://www.postgresql.org/) – Databases
+- [RabbitMQ](http://www.rabbitmq.com/) – Message Queue
+- [Redis](http://redis.io/) – In-Memory Databases
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [NGINX](http://nginx.org) – Web Servers
+- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
 
 Full tech stack [here](/techstack.md)
 
@@ -21,15 +21,15 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 aryaniyaps/examples is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
-- <img width='25' height='25' src='https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg' alt='RabbitMQ'/> [RabbitMQ](http://www.rabbitmq.com/) – Message Queue
 - <img width='25' height='25' src='https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png' alt='Mako'/> [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg' alt='RabbitMQ'/> [RabbitMQ](http://www.rabbitmq.com/) – Message Queue
+- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
 
 Full tech stack [here](/techstack.md)
 
@@ -40,7 +40,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [aryaniyaps/examples](https://github.com/aryaniyaps/examples)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|29<br/>Tools used|01/20/24 <br/>Report generated|
+|29<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -180,7 +180,7 @@ Full tech stack [here](/techstack.md)
 |[mypy](https://pypi.org/project/mypy)|v0.910|09/09/21|Jonathan Kim |MIT|N/A|
 |[passlib](https://pypi.org/project/passlib)|v1.7.4|10/17/21|Aryan Iyappan |BSD-3-Clause|N/A|
 |[psycopg2-binary](https://pypi.org/project/psycopg2-binary)|v2.8.6|03/02/21|Anton Melser |BSD-3-Clause-Attribution|N/A|
-|[starlette](https://pypi.org/project/starlette)|v0.14.2|10/17/21|Aryan Iyappan |BSD-3-Clause|[](https://github.com/advisories/GHSA-qj8w-rv5x-2v9h) (High)<br/>[CVE-2023-30798](https://github.com/advisories/GHSA-3qj8-93xh-pwh2) (High)<br/>[](https://github.com/advisories/GHSA-74m5-2c7w-9w3x) (Moderate)<br/>[CVE-2023-29159](https://github.com/advisories/GHSA-v5gw-mw7f-84px) (Low)|
+|[starlette](https://pypi.org/project/starlette)|v0.14.2|10/17/21|Aryan Iyappan |BSD-3-Clause|[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)<br/>[](https://github.com/advisories/GHSA-93gm-qmq6-w238) (High)<br/>[](https://github.com/advisories/GHSA-qj8w-rv5x-2v9h) (High)<br/>[CVE-2023-30798](https://github.com/advisories/GHSA-3qj8-93xh-pwh2) (High)<br/>[](https://github.com/advisories/GHSA-74m5-2c7w-9w3x) (Moderate)<br/>[CVE-2023-29159](https://github.com/advisories/GHSA-v5gw-mw7f-84px) (Low)|
 |[uvicorn](https://pypi.org/project/uvicorn)|v0.13.4|03/02/21|Anton Melser |BSD-3-Clause|N/A|
 
 <br/>
